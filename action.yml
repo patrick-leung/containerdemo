@@ -1,5 +1,5 @@
 name: "demo container action"
-description "demo"
+description: "demo"
 author: "Patrick Leung"
 inputs:
   myinput: 
