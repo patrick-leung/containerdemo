@@ -1,0 +1,14 @@
+name: "demo container action"
+description "demo"
+author: "Patrick Leung"
+inputs:
+  myinput: 
+    description: 'greating to use'
+    required: true
+    default: 'AWS demo'
+outputs:
+  myoutput:
+    description 'total memory'
+runs:
+  using: 'docker'
+  image: 'Dockerfile' 
